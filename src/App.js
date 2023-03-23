@@ -1,13 +1,17 @@
 
+import { useEffect } from 'react';
 import './App.css';
 import Profile from './Profile/Profile';
 
 // handleName a function return string who pass as a parameter
+
 const handleName = (str) => {
+
   return str
 }
 
 function App() {
+
   return (
     <div className="App">
 
